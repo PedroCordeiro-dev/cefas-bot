@@ -35,7 +35,7 @@ Ele utiliza modelos de linguagem (LLMs) para interpretar e gerar respostas intel
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/PedroCordeiro-dev/CefasBot.git
+git clone https://github.com/PedroCordeiro-dev/cefas-bot.git
 cd cefasbot
 ```
 
