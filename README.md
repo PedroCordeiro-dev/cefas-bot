@@ -36,7 +36,7 @@ Ele utiliza modelos de linguagem (LLMs) para interpretar e gerar respostas intel
 
 ```bash
 git clone https://github.com/PedroCordeiro-dev/cefas-bot.git
-cd cefasbot
+cd cefas-bot
 ```
 
 ---
