@@ -23,8 +23,10 @@ def resposta_bot(mensagens, documento):
     max_doc = 8000
     prompt = ChatPromptTemplate.from_messages([
         ("system",
-         "Seu nome é CefasBot. Você é um assistente virtual amigável. "
-         "Use as informações a seguir para formular suas respostas:\n\n{informacoes}"),
+         "Seu nome é CefasBot. Responda de forma clara, direta e útil. "
+         "Se houver informações fornecidas PRIORIZE elas. "
+         "Se não houver, responda com seu conhecimento geral. "
+         "Evite respostas vagas e seja objetivo.\n\nInformações:\n{informacoes}"),
         *mensagens
     ])
 
